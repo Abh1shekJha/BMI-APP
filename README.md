@@ -1,9 +1,14 @@
 # BMI-APP
-To get the apk file go to:
+### Install using apk on your android device!
+  * To get the apk file go to:
+    * app > build > output > apk > debug > BMI_APP.apk
 
-app > build > output > apk > debug > BMI_APP.apk
-
-BMI app for android.
-
-The app is made for android version 5.0 and above in Kotlin using android studio.
+### Built with
+    * Android studio using Kotlin
+    
+  
+  <img src="/screenshots/Screenshot_1629123110.png" width="30%" height="auto">      <img src="/screenshots/Screenshot_1629123176.png" width="30%" height="auto">  
+  <img src="/screenshots/Screenshot_1629123193.png" width="25%" height="auto"> <img src="/screenshots/Screenshot_1629123200.png" width="25%" height="auto">  <img src="/screenshots/Screenshot_1629123225.png" width="25%" height="auto">
+  
+  
 
