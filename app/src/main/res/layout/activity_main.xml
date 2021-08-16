@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@color/oxford_blue"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Weight"
+        android:layout_width="match_parent"
+        android:padding="@dimen/sixteen"
+        android:layout_height="75dp"
+        android:layout_marginLeft="@dimen/sixteen"
+        android:layout_marginTop="@dimen/sixteen"
+        android:layout_marginRight="@dimen/sixteen"
+        android:importantForAutofill="no"
+        android:background="@color/opal"
+        android:digits="0123456789."
+        android:hint="@string/weight"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/Height"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="@dimen/sixteen"
+        android:layout_marginTop="@dimen/sixteen"
+        android:layout_marginRight="@dimen/sixteen"
+        android:importantForAutofill="no"
+        android:background="@color/opal"
+        android:digits="0123456789."
+        android:hint="@string/height"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/calc"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/sixteen"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:backgroundTint="#B10F2E"/>
+
+
+    <TextView
+        android:id="@+id/BMI_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sixteen"
+        android:fontFamily="@font/gorditas"
+        android:textSize="@dimen/txt_25"
+        android:textColor="@color/white"
+        tools:text="20" />
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/healthy"
+        android:layout_marginTop="@dimen/sixteen"
+        android:contentDescription="@string/str_img_desc"/>
+
+</LinearLayout>

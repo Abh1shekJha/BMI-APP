@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="weight">Weight (in kgs)</string>
+    <string name="calc">CALCULATE</string>
+    <string name="str_img_desc">Figure vector</string>
+    <string name="height">Height (in m)</string>
+</resources>
