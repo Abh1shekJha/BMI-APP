@@ -6,7 +6,8 @@
 ### Built with
     * Android studio using Kotlin
     
-  
+### Preview:
+
   <img src="/screenshots/Screenshot_1629123110.png" width="25%" height="auto"> <img src="/screenshots/Screenshot_1629123176.png" width="25%" height="auto"> <img src="/screenshots/Screenshot_1629123193.png" width="25%" height="auto"> <img src="/screenshots/Screenshot_1629123200.png" width="25%" height="auto">  <img src="/screenshots/Screenshot_1629123225.png" width="25%" height="auto">
   
   
